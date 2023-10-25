@@ -1,0 +1,94 @@
+
+.container {
+  display: flex;
+}
+
+.left-column{
+  flex: 0 0 20%;
+  height: 100vh;
+  padding: 20px;
+  background-color: black;
+  margin-right: 5px;
+}
+
+.right-column{
+  flex: 1;
+  padding: 20px;
+  background-color: black;
+}
+
+.red-button {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  background-color: red;
+  min-width: 250px;
+  min-height: 40px;
+}
+button {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  background-color: blue;
+  min-width: 100px;
+  min-height: 20px;
+}
+
+h3 {
+  font-size: 21px;
+  color: red;
+  padding-top: 0.5rem;
+}
+p {
+  font-size: 18px;
+  color: white;
+  padding-top: 0; 
+}
+
+input::placeholder{
+  color: black;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note-form input[type="text"] {
+  /* Styles pour le champ de titre */
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  background-color: darkgrey;
+}
+
+.note-form textarea {
+  /* Styles pour le champ de contenu */
+  width: 100%;
+  min-height: 300px;
+  padding: 8px;
+  font-size: 18px;
+  background-color: darkgrey;
+  resize: vertical;
+  /* Permet à la zone de texte d'être redimensionnée verticalement */
+}
+
+.note-form button {
+  align-self: flex-start;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  background-color: red;
+  min-width: 250px;
+  min-height: 40px;
+}
+
+.note-display p {
+  color: white;
+  width: 100%;
+  min-height: 300px;
+  padding: 8px;
+  font-size: 18px;
+  resize: vertical;
+}
